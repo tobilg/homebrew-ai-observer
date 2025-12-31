@@ -44,7 +44,7 @@ ai-observer
 
 ## Servers
 
-AI Observer runs two servers:
+AI Observer runs two servers in the same process:
 - **Port 4318**: OTLP ingestion (traces, metrics, logs)
 - **Port 8080**: Dashboard and API
 
