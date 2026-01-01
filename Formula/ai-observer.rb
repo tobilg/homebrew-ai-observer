@@ -1,13 +1,13 @@
 class AiObserver < Formula
   desc "Single binary OpenTelemetry-compatible observability backend for AI coding tools like Claude Code, Codex CLI and Gemini CLI"
   homepage "https://github.com/tobilg/ai-observer"
-  version "VERSION_HERE"
+  version "0.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tobilg/ai-observer/releases/download/v#{version}/ai-observer-v#{version}-darwin-arm64.tar.gz"
-      sha256 "SHA256_HERE"
+      url "https://github.com/tobilg/ai-observer/releases/download/v#{version}/ai-observer-darwin-arm64-v#{version}.tar.gz"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
@@ -31,7 +31,7 @@ class AiObserver < Formula
       AI Observer runs two servers in a single process:
         - Port 4318: OTLP ingestion (traces, metrics, logs)
         - Port 8080: Dashboard and API
-      
+
       Configure via environment variables:
         export AI_OBSERVER_API_PORT=8080
         export AI_OBSERVER_OTLP_PORT=4318
