@@ -1,4 +1,4 @@
-# ai-observer-homebrew
+# homebrew-ai-observer
 
 Homebrew tap for [ai-observer](https://github.com/tobilg/ai-observer) - a single binary OpenTelemetry-compatible observability backend for AI coding tools like Claude Code, Codex CLI and Gemini CLI.
 
