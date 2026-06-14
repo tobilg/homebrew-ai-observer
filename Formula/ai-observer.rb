@@ -7,7 +7,7 @@ class AiObserver < Formula
   on_macos do
     on_arm do
       url "https://github.com/tobilg/ai-observer/releases/download/v#{version}/ai-observer-darwin-arm64-v#{version}.tar.gz"
-      sha256 "6663f68eace025268ce4269a9223c2f15726191a57973fae02f38cbce463cd0e"
+      sha256 "9605a4d377ed0b74eef2f514911292e2e32316b3d5aa4af5ca72ea9e9dd9dfa3"
     end
   end
 
