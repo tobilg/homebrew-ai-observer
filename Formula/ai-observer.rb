@@ -1,13 +1,13 @@
 class AiObserver < Formula
   desc "Single binary OpenTelemetry-compatible observability backend for AI coding tools like Claude Code, Codex CLI and Gemini CLI"
   homepage "https://github.com/tobilg/ai-observer"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tobilg/ai-observer/releases/download/v#{version}/ai-observer-darwin-arm64-v#{version}.tar.gz"
-      sha256 "e26b6c73e34dac3b6166d125880b9e347f3226d161d05990dffe1cbd68b3b3f8"
+      sha256 "08d171bf47e68dd380b08227216fc9a194393db595230019803aa5d1be3acf84"
     end
   end
 
